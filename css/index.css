@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Basic", sans-serif;
+}
+
+:root {
+  --color-gradient-1: linear-gradient(90deg, rgba(231, 53, 135, 1) 0%, rgba(140, 50, 240, 1) 100%);
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+/*  Header  */
+
+nav #navbar-brand {
+  height: 126px;
+  width: 100px;
+  background: var(--color-gradient-1);
+  position: absolute;
+  top: 0;
+}
+
+nav .brand {
+  background-color: #020e35;
+  height: 120px;
+  width: 100px;
+  position: absolute;
+  top: 0;
+  margin: 0;
+}
+
+nav .brand img {
+  margin: 30px auto;
+}
+
+nav #nav-brand {
+  display: none;
+  height: 72px;
+  width: 80px;
+  background: var(--color-gradient-1);
+  position: absolute;
+  top: 0;
+}
+
+nav .n-brand {
+  background-color: #020e35;
+  height: 65px;
+  width: 80px;
+  position: absolute;
+  top: 0;
+  margin: 0;
+}
+
+nav .n-brand img {
+  margin: 9px auto;
+}
+
+nav .contact-us {
+  color: white !important;
+  background: var(--color-gradient-1);
+}
+
+nav a {
+  margin: 0.5em 1em;
+  color: black !important;
+}
+
+@media (min-width: 992px) {
+  nav #nav-brand {
+    height: 88px;
+  }
+
+  nav .n-brand {
+    height: 80px;
+  }
+
+  nav .n-brand img {
+    margin: 15px auto;
+  }
+}
+
+/*  Hero */
+
+#hero {
+  margin-top: 100px !important;
+}
+
+#hero h1 {
+  font-size: 5rem;
+  margin-bottom: 0.5em !important;
+}
+
+#hero a {
+  background: var(--color-gradient-1);
+  color: white !important;
+  text-decoration: none;
+  padding: 1em 1.5em;
+}
+
+@media (max-width: 1400px) {
+  #hero h1 {
+    font-size: 4.3rem;
+    margin-bottom: 0.5em !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  #hero h1 {
+    font-size: 3.6rem;
+    margin-bottom: 0.5em !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  #hero h1 {
+    font-size: 3.6rem;
+    margin-bottom: 0.5em !important;
+  }
+}
+
+/*  About  */
+.underline {
+  position: relative;
+  width: 100px;
+  height: 1px;
+  left: 670px;
+  top: 1107px;
+
+  border: 2px solid #E73587;
+}
+
+/*  Services  */
+
+#services {
+  background: linear-gradient(
+    to top,
+    #020E35 0%,
+    #020E35 50%,
+    white 50%,
+    white 100%
+  );
+  padding-bottom:100px;
+}
+
+
+
+.bg-yellow {
+  background-color: #FDF8E3;
+}
+
+.bg-grey {
+  background-color: #F0F3FA;
+}
+
+.bg-pink {
+  background-color: #FEEFF0;
+}
+.card a {
+  background: var(--color-gradient-1);
+  color: white !important;
+  text-decoration: none;
+  padding: 1em 1.5em;
+}
+/* Contact */
+.headline-contact{
+  color : #020E35;
+  font-family: "Basic", sans-serif;
+}
+.headline-contact h5{
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+.headline-contact h1{
+  font-weight: 400;
+  font-size: 5rem;
+  font-style: normal;
+  line-height: 110px;
+}
+h1 abbr{
+  color : #E73587;
+}
+.btn-style{
+  background: var(--color-gradient-1);
+  color: white !important;
+  text-decoration: none;
+  padding: 1em 1.5em;
+}
+/* Footer */
+footer{
+background-color: #020E35;
+color: white !important;
+font-size: 0.7rem;
+bottom: 0px;
+position: relative;
+margin-top: 100px;
+padding: 5px;
+}
+/* Css outwork */
+.OurWork {
+  background-color: #020E35;
+}
+
+.OurWork .line {
+  width: 65%;
+  border-bottom: 4px solid #E73587;
+  border-radius: 4rem;
+}
+
+.OurWork h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.OurWork .img-content-outwork {
+  max-width: 550px;
+  height: 390px;
+}
+
+.OurWork img {
+  width: 433px;
+  height: 390px;
+  position: relative;
+}
+
+.img-content-outwork {
+  position: relative;
+  overflow: hidden;
+}
+
+.OurWork button {
+  width: 140px;
+  height: 40px;
+  background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+  font-size: 12px;
+  color: white !important;
+  font-weight: 400;
+}
+
+.OurWork button:hover {
+  background: linear-gradient(270deg, #8C32F0 0%, #E73587 30%);
+  color: white !important;
+}
+
+.OurWork button:active {
+  border: none;
+  background: linear-gradient(270deg, #8C32F0 0%, #E73587 30%);
+  color: white !important;
+  filter: brightness(95%);
+}
+@media screen and (max-width: 1024px) {
+
+  .OurWork .img-content {
+      max-width: 450px;
+      height: 290px;
+  }
+
+  .OurWork img {
+      width: 333px;
+      height: 290px;
+      position: relative;
+  }
+}
